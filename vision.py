@@ -7,7 +7,7 @@ import google.generativeai as genai
 from PIL import Image
 
 # ✅ Load your API key from environment variables (recommended)
-genai.configure(api_key="AIzaSyAzXc54TCt4xL78uDI98Ssb6DaJkYRxvZA")
+genai.configure(api_key="YOUR_API_KEY")
 
 # ✅ Choose a vision-capable model
 model = genai.GenerativeModel("gemini-1.5-flash-latest")
