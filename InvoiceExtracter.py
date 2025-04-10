@@ -7,7 +7,7 @@ import os
 from PIL import Image # type: ignore
 import google.generativeai as genai # type: ignore
 
-genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
+genai.configure(api_key=os.getenv("YOUR_API_KEY"))
 
 model=genai.GenerativeModel("gemini-2.0-pro-exp")
 
